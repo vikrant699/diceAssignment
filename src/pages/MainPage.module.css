@@ -1,0 +1,153 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 769px) {
+  .loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .lottie {
+    width: 4vw;
+  }
+
+  .container {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .searchInput {
+    padding: 10px;
+    background-color: rgb(65, 65, 65);
+    border: none;
+    outline: none;
+    width: 250px;
+    font-size: 16px;
+    color: #ffffff;
+    caret-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    border: 1px solid #ffffff00;
+  }
+
+  .searchInput:focus {
+    border: 1px solid #ffffff !important;
+    border-radius: 20px;
+  }
+
+  .searchInput::placeholder {
+    color: white;
+  }
+
+  .repoList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dropdown {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(65, 65, 65);
+  }
+
+  .dropdownOption {
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .lottie {
+    width: 13vw;
+  }
+
+  .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .heading {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .searchInput {
+    padding: 10px;
+    background-color: rgb(65, 65, 65);
+    border: none;
+    outline: none;
+    width: 180px;
+    font-size: 16px;
+    color: #ffffff;
+    caret-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    border: 1px solid #ffffff00;
+  }
+
+  .searchInput:focus {
+    border: 1px solid #ffffff !important;
+    border-radius: 20px;
+  }
+
+  .searchInput::placeholder {
+    color: white;
+  }
+
+  .repoList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dropdown {
+    padding: 10px;
+    width: 100px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(65, 65, 65);
+  }
+
+  .dropdownOption {
+    border-radius: 20px;
+  }
+}

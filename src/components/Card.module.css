@@ -1,0 +1,27 @@
+.repoCard {
+  background-color: rgb(65, 65, 65);
+  border-radius: 50px;
+  margin: 10px;
+  padding: 16px;
+  width: 280px;
+  box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  overflow: hidden;
+}
+
+.repoCard:hover {
+  cursor: pointer;
+  background-color: rgb(78, 78, 78);
+  box-shadow: 20px 18px 20px rgba(0, 0, 0, 0.1);
+}
+
+.repoCard img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+p {
+  text-decoration: none;
+}
